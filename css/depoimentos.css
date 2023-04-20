@@ -1,0 +1,58 @@
+.depoimentos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.depoimentos-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px;
+  margin-bottom: 96px;
+
+  background: rgba(196, 25, 25, 0.03);
+  border-radius: 16px;
+  gap: 32px;
+  max-width: 120ch;
+  text-align: center;
+}
+
+.depoimentos-bg span {
+  color: var(--vermelho1);
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.depoimento-bg h1 {
+  color: var(--preto1);
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  letter-spacing: -0.02em;
+}
+
+.depoimentos-dados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.depoimentos-dados img {
+  margin-bottom: 16px;
+}
+
+.depoimentos-dados .nome {
+  color: var(--preto1);
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.depoimentos-dados .funcao {
+  color: var(--cinza1);
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}

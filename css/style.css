@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*GLOBAL*/
+@import "global.css";
+
+/*HEADER*/
+@import "header.css";
+
+/*SOBRE*/
+@import "sobre.css";
+
+/*METRICAS*/
+@import "metricas.css";
+
+/*RECRUITER*/
+@import "recruiter.css";
+
+/*VAGAS*/
+@import "vagas.css";
+
+/*DEPOIMENTOS*/
+@import "depoimentos.css";
+
+/*FOOTER*/
+@import "footer.css";
+
+/*FOOTER*/
+@import "utilitarios/cores.css";
